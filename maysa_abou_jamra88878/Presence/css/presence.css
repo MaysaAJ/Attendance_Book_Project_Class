@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+
+table{
+   margin : 0px auto;
+   cellspacing:5;
+ }
+ td{
+  width:200px;
+  
+ }
+ 
+  [type="submit"]{
+	 margin-top:2%;
+	margin-left:40%;
+	font-size:16pt;
+	color:grey;
+	}
+	 select{
+ font-size:12pt;
+ font-color:#1f5828;
+ }
+ [type="date"]{
+    font-size:12pt;
+ font-color:#1f5828;
+ }
+  label{
+ font-size:16pt;
+ font-color:#1f5828;
+ }
+ 

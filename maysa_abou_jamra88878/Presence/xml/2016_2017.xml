@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<master xmlns="http://www.example.org/noms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/noms absence.xsd">
+  
+  
+     <docteurs>
+     <docteur><nom>Zein Ibrahim</nom><password>info446</password></docteur>
+     <docteur><nom>Ali Chouman</nom><password>info444</password></docteur>
+     <docteur><nom>Samar Tawbi</nom><password>info445</password></docteur>
+     </docteurs>
+    <students>
+     <student id="88871" val="0">Abdallah Jaffal</student>
+     <student id="88872" val="1">Alaa Zreik</student>
+     <student id="88873" val="2">Ali Abbas</student>
+     <student id="88874" val="3">Ali Harkous</student>
+     <student id="88875" val="4">Ali Shaitou</student>
+     <student id="88876" val="5">Fatima Tabaja</student>
+     <student id="88814" val="6">Hadi Dbouk</student>
+     <student id="88741" val="7">Hsein Khalifeh</student>
+     <student id="88880" val="8">Khadija Jradi</student>
+     <student id="88878" val="9">Maysa Abou Jamra</student>
+     <student id="88881" val="10">Mohamad Kassem</student>
+     <student id="88882" val="11">Mohamad Shaitou</student>
+     <student id="88883" val="12">Nour al din</student>
+     <student id="88136" val="13">Rayan</student>
+     <student id="88885" val="14">Sahar</student>
+     <student id="88886" val="15">Zeina Houmani</student>
+    
+<student id="88877" val="16">Rana Wanna&#13;
+</student><student id="88811" val="17">Ayoub Rizk&#13;
+</student></students>
+  <corses>
+     <corse Description="Artificial Intelligence">Info 444</corse>
+     <corse Description="Advanced web technologies">Info 446</corse>
+  <corse Description="Event Programming and Graphical Interface">Info 445</corse>
+  <corse Description="Network advanced">Info 443</corse><corse Description="Operating System">Info 442</corse></corses>
+  <matieres>
+    <matiere>
+     <cours>Info 444</cours>
+     <AllEtudiants>
+     <etudiants id="88871" nbAbs="3" nbRet="4" val="0">Abdallah Jaffal</etudiants>
+     <etudiants id="88872" nbAbs="2" nbRet="2" val="1">Alaa Zreik</etudiants>
+     <etudiants id="88873" nbAbs="2" nbRet="1" val="2">Ali Abbas</etudiants>
+     <etudiants id="88874" nbAbs="4" nbRet="1" val="3">Ali Harkous</etudiants>
+     <etudiants id="88875" nbAbs="5" nbRet="0" val="4">Ali Shaitou</etudiants>
+     <etudiants id="88876" nbAbs="3" nbRet="0" val="5">Fatima Tabaja</etudiants>
+     <etudiants id="88814" nbAbs="6" nbRet="1" val="6">Hadi Dbouk</etudiants>
+     <etudiants id="88879" nbAbs="4" nbRet="1" val="7">Hsein Khalifeh</etudiants>
+     <etudiants id="88880" nbAbs="4" nbRet="4" val="8">Khadija Jradi</etudiants>
+     <etudiants id="88878" nbAbs="4" nbRet="3" val="9">Maysa Abou Jamra</etudiants>
+     <etudiants id="88881" nbAbs="5" nbRet="1" val="10">Mohamad Kassem</etudiants>
+     <etudiants id="88882" nbAbs="9" nbRet="0" val="11">Mohamad Shaitou</etudiants>
+     <etudiants id="88883" nbAbs="5" nbRet="0" val="12">Nour al din</etudiants>
+     <etudiants id="88136" nbAbs="0" nbRet="0" val="13">Rayan</etudiants>
+     <etudiants id="88885" nbAbs="4" nbRet="0" val="14">Sahar</etudiants>
+     <etudiants id="88886" nbAbs="4" nbRet="1" val="15">Zeina Houmani</etudiants>
+     </AllEtudiants>
+    
+     <seance><etudiant Absent="1" Retard="0">Abdallah Jaffal</etudiant><etudiant Absent="0" Retard="0">Alaa Zreik</etudiant><etudiant Absent="0" Retard="0">Ali Abbas</etudiant><etudiant Absent="0" Retard="0">Ali Harkous</etudiant><etudiant Absent="0" Retard="0">Ali Shaitou</etudiant><etudiant Absent="0" Retard="0">Fatima Tabaja</etudiant><etudiant Absent="0" Retard="1">Hadi Dbouk</etudiant><etudiant Absent="1" Retard="0">Hsein Khalifeh</etudiant><etudiant Absent="0" Retard="0">Khadija Jradi</etudiant><etudiant Absent="0" Retard="0">Maysa Abou Jamra</etudiant><etudiant Absent="1" Retard="0">Mohamad Kassem</etudiant><etudiant Absent="1" Retard="0">Mohamad Shaitou</etudiant><etudiant Absent="1" Retard="0">Nour al din</etudiant><etudiant Absent="0" Retard="0">Rayan</etudiant><etudiant Absent="0" Retard="0">Sahar</etudiant><etudiant Absent="0" Retard="0">Zeina Houmani</etudiant><nom>Zein</nom><date>2017-01-10</date></seance><seance><etudiant Absent="1" Retard="0">Abdallah Jaffal</etudiant><etudiant Absent="0" Retard="1">Alaa Zreik</etudiant><etudiant Absent="0" Retard="0">Ali Abbas</etudiant><etudiant Absent="0" Retard="0">Ali Harkous</etudiant><etudiant Absent="0" Retard="0">Ali Shaitou</etudiant><etudiant Absent="0" Retard="0">Fatima Tabaja</etudiant><etudiant Absent="1" Retard="0">Hadi Dbouk</etudiant><etudiant Absent="0" Retard="0">Hsein Khalifeh</etudiant><etudiant Absent="0" Retard="1">Khadija Jradi</etudiant><etudiant Absent="0" Retard="1">Maysa Abou Jamra</etudiant><etudiant Absent="1" Retard="0">Mohamad Kassem</etudiant><etudiant Absent="1" Retard="0">Mohamad Shaitou</etudiant><etudiant Absent="0" Retard="0">Nour al din</etudiant><etudiant Absent="0" Retard="0">Rayan</etudiant><etudiant Absent="0" Retard="0">Sahar</etudiant><etudiant Absent="0" Retard="0">Zeina Houmani</etudiant><nom>Zein</nom><date>2017-01-10</date></seance><seance><etudiant Absent="0" Retard="1">Abdallah Jaffal</etudiant><etudiant Absent="0" Retard="1">Alaa Zreik</etudiant><etudiant Absent="1" Retard="0">Ali Abbas</etudiant><etudiant Absent="0" Retard="1">Ali Harkous</etudiant><etudiant Absent="1" Retard="0">Ali Shaitou</etudiant><etudiant Absent="1" Retard="0">Fatima Tabaja</etudiant><etudiant Absent="0" Retard="0">Hadi Dbouk</etudiant><etudiant Absent="1" Retard="0">Hsein Khalifeh</etudiant><etudiant Absent="1" Retard="0">Khadija Jradi</etudiant><etudiant Absent="0" Retard="0">Maysa Abou Jamra</etudiant><etudiant Absent="1" Retard="0">Mohamad Kassem</etudiant><etudiant Absent="0" Retard="0">Mohamad Shaitou</etudiant><etudiant Absent="1" Retard="0">Nour al din</etudiant><etudiant Absent="0" Retard="0">Rayan</etudiant><etudiant Absent="1" Retard="0">Sahar</etudiant><etudiant Absent="0" Retard="1">Zeina Houmani</etudiant><nom>Zein</nom><date>2017-01-10</date></seance><seance><etudiant Absent="0" Retard="0">Abdallah Jaffal</etudiant><etudiant Absent="0" Retard="0">Alaa Zreik</etudiant><etudiant Absent="0" Retard="1">Ali Abbas</etudiant><etudiant Absent="0" Retard="0">Ali Harkous</etudiant><etudiant Absent="0" Retard="0">Ali Shaitou</etudiant><etudiant Absent="0" Retard="0">Fatima Tabaja</etudiant><etudiant Absent="0" Retard="0">Hadi Dbouk</etudiant><etudiant Absent="0" Retard="0">Hsein Khalifeh</etudiant><etudiant Absent="0" Retard="1">Khadija Jradi</etudiant><etudiant Absent="0" Retard="1">Maysa Abou Jamra</etudiant><etudiant Absent="0" Retard="0">Mohamad Kassem</etudiant><etudiant Absent="1" Retard="0">Mohamad Shaitou</etudiant><etudiant Absent="0" Retard="0">Nour al din</etudiant><etudiant Absent="0" Retard="0">Rayan</etudiant><etudiant Absent="0" Retard="0">Sahar</etudiant><etudiant Absent="0" Retard="0">Zeina Houmani</etudiant><nom>Zein</nom><date>2017-01-11</date></seance>
+  <seance><etudiant Absent="0" Retard="1">Abdallah Jaffal</etudiant><etudiant Absent="0" Retard="0">Alaa Zreik</etudiant><etudiant Absent="0" Retard="0">Ali Abbas</etudiant><etudiant Absent="0" Retard="0">Ali Harkous</etudiant><etudiant Absent="0" Retard="0">Ali Shaitou</etudiant><etudiant Absent="1" Retard="0">Fatima Tabaja</etudiant><etudiant Absent="1" Retard="0">Hadi Dbouk</etudiant><etudiant Absent="0" Retard="0">Hsein Khalifeh</etudiant><etudiant Absent="0" Retard="1">Khadija Jradi</etudiant><etudiant Absent="0" Retard="1">Maysa Abou Jamra</etudiant><etudiant Absent="0" Retard="0">Mohamad Kassem</etudiant><etudiant Absent="1" Retard="0">Mohamad Shaitou</etudiant><etudiant Absent="0" Retard="0">Nour al din</etudiant><etudiant Absent="0" Retard="0">Rayan</etudiant><etudiant Absent="1" Retard="0">Sahar</etudiant><etudiant Absent="0" Retard="0">Zeina Houmani</etudiant><nom>Zein Ibrahim</nom><date>2017-01-14</date></seance><seance><etudiant Absent="0" Retard="1">Abdallah Jaffal</etudiant><etudiant Absent="1" Retard="0">Alaa Zreik</etudiant><etudiant Absent="0" Retard="0">Ali Abbas</etudiant><etudiant Absent="1" Retard="0">Ali Harkous</etudiant><etudiant Absent="1" Retard="0">Ali Shaitou</etudiant><etudiant Absent="1" Retard="0">Fatima Tabaja</etudiant><etudiant Absent="1" Retard="0">Hadi Dbouk</etudiant><etudiant Absent="1" Retard="0">Hsein Khalifeh</etudiant><etudiant Absent="0" Retard="1">Khadija Jradi</etudiant><etudiant Absent="1" Retard="0">Maysa Abou Jamra</etudiant><etudiant Absent="1" Retard="0">Mohamad Kassem</etudiant><etudiant Absent="1" Retard="0">Mohamad Shaitou</etudiant><etudiant Absent="0" Retard="0">Nour al din</etudiant><etudiant Absent="0" Retard="0">Rayan</etudiant><etudiant Absent="0" Retard="0">Sahar</etudiant><etudiant Absent="1" Retard="0">Zeina Houmani</etudiant><nom>Zein Ibrahim</nom><date>2017-01-17</date></seance><seance><etudiant Absent="1" Retard="0">Abdallah Jaffal</etudiant><etudiant Absent="0" Retard="0">Alaa Zreik</etudiant><etudiant Absent="1" Retard="0">Ali Abbas</etudiant><etudiant Absent="0" Retard="0">Ali Harkous</etudiant><etudiant Absent="1" Retard="0">Ali Shaitou</etudiant><etudiant Absent="0" Retard="0">Fatima Tabaja</etudiant><etudiant Absent="1" Retard="0">Hadi Dbouk</etudiant><etudiant Absent="0" Retard="1">Hsein Khalifeh</etudiant><etudiant Absent="1" Retard="0">Khadija Jradi</etudiant><etudiant Absent="1" Retard="0">Maysa Abou Jamra</etudiant><etudiant Absent="0" Retard="1">Mohamad Kassem</etudiant><etudiant Absent="1" Retard="0">Mohamad Shaitou</etudiant><etudiant Absent="0" Retard="0">Nour al din</etudiant><etudiant Absent="0" Retard="0">Rayan</etudiant><etudiant Absent="1" Retard="0">Sahar</etudiant><etudiant Absent="0" Retard="0">Zeina Houmani</etudiant><nom>Zein Ibrahim</nom><date>2017-01-13</date></seance><seance><etudiant Absent="0" Retard="1">Abdallah Jaffal</etudiant><etudiant Absent="1" Retard="0">Alaa Zreik</etudiant><etudiant Absent="0" Retard="0">Ali Abbas</etudiant><etudiant Absent="1" Retard="0">Ali Harkous</etudiant><etudiant Absent="0" Retard="0">Ali Shaitou</etudiant><etudiant Absent="0" Retard="0">Fatima Tabaja</etudiant><etudiant Absent="0" Retard="0">Hadi Dbouk</etudiant><etudiant Absent="1" Retard="0">Hsein Khalifeh</etudiant><etudiant Absent="0" Retard="0">Khadija Jradi</etudiant><etudiant Absent="0" Retard="0">Maysa Abou Jamra</etudiant><etudiant Absent="1" Retard="0">Mohamad Kassem</etudiant><etudiant Absent="1" Retard="0">Mohamad Shaitou</etudiant><etudiant Absent="1" Retard="0">Nour al din</etudiant><etudiant Absent="0" Retard="0">Rayan</etudiant><etudiant Absent="1" Retard="0">Sahar</etudiant><etudiant Absent="1" Retard="0">Zeina Houmani</etudiant><nom>Zein Ibrahim</nom><date>2017-01-19</date></seance></matiere>
+     <matiere>
+      <cours>Info 446</cours>
+      <AllEtudiants>
+     <etudiants id="88871" nbAbs="0" nbRet="1" val="0">Abdallah Jaffal</etudiants>
+     <etudiants id="88872" nbAbs="1" nbRet="1" val="1">Alaa Zreik</etudiants>
+     <etudiants id="88873" nbAbs="0" nbRet="0" val="2">Ali Abbas</etudiants>
+     <etudiants id="88874" nbAbs="3" nbRet="0" val="3">Ali Harkous</etudiants>
+     <etudiants id="88875" nbAbs="3" nbRet="0" val="4">Ali Shaitou</etudiants>
+     <etudiants id="88876" nbAbs="0" nbRet="2" val="5">Fatima Tabaja</etudiants>
+     <etudiants id="88814" nbAbs="2" nbRet="0" val="6">Hadi Dbouk</etudiants>
+     <etudiants id="88879" nbAbs="4" nbRet="0" val="7">Hsein Khalifeh</etudiants>
+     <etudiants id="88880" nbAbs="3" nbRet="1" val="8">Khadija Jradi</etudiants>
+     <etudiants id="88878" nbAbs="2" nbRet="2" val="9">Maysa Abou Jamra</etudiants>
+     <etudiants id="88881" nbAbs="4" nbRet="1" val="10">Mohamad Kassem</etudiants>
+     <etudiants id="88882" nbAbs="5" nbRet="0" val="11">Mohamad Shaitou</etudiants>
+     <etudiants id="88883" nbAbs="3" nbRet="1" val="12">Nour al din</etudiants>
+     <etudiants id="88136" nbAbs="1" nbRet="2" val="13">Rayan</etudiants>
+     <etudiants id="88885" nbAbs="6" nbRet="0" val="14">Sahar</etudiants>
+     <etudiants id="88886" nbAbs="1" nbRet="0" val="15">Zeina Houmani</etudiants>
+     </AllEtudiants>
+     <seance><etudiant Absent="0" Retard="0">Abdallah Jaffal</etudiant><etudiant Absent="0" Retard="0">Alaa Zreik</etudiant><etudiant Absent="0" Retard="0">Ali Abbas</etudiant><etudiant Absent="1" Retard="0">Ali Harkous</etudiant><etudiant Absent="1" Retard="0">Ali Shaitou</etudiant><etudiant Absent="0" Retard="0">Fatima Tabaja</etudiant><etudiant Absent="0" Retard="0">Hadi Dbouk</etudiant><etudiant Absent="1" Retard="0">Hsein Khalifeh</etudiant><etudiant Absent="0" Retard="0">Khadija Jradi</etudiant><etudiant Absent="1" Retard="0">Maysa Abou Jamra</etudiant><etudiant Absent="0" Retard="0">Mohamad Kassem</etudiant><etudiant Absent="1" Retard="0">Mohamad Shaitou</etudiant><etudiant Absent="0" Retard="0">Nour al din</etudiant><etudiant Absent="0" Retard="0">Rayan</etudiant><etudiant Absent="1" Retard="0">Sahar</etudiant><etudiant Absent="0" Retard="0">Zeina Houmani</etudiant><nom>Zein Ibrahim</nom><date>2017-01-15</date></seance><seance><etudiant Absent="0" Retard="1">Abdallah Jaffal</etudiant><etudiant Absent="0" Retard="0">Alaa Zreik</etudiant><etudiant Absent="0" Retard="0">Ali Abbas</etudiant><etudiant Absent="0" Retard="0">Ali Harkous</etudiant><etudiant Absent="0" Retard="0">Ali Shaitou</etudiant><etudiant Absent="0" Retard="1">Fatima Tabaja</etudiant><etudiant Absent="0" Retard="0">Hadi Dbouk</etudiant><etudiant Absent="1" Retard="0">Hsein Khalifeh</etudiant><etudiant Absent="1" Retard="0">Khadija Jradi</etudiant><etudiant Absent="0" Retard="0">Maysa Abou Jamra</etudiant><etudiant Absent="1" Retard="0">Mohamad Kassem</etudiant><etudiant Absent="0" Retard="0">Mohamad Shaitou</etudiant><etudiant Absent="1" Retard="0">Nour al din</etudiant><etudiant Absent="0" Retard="1">Rayan</etudiant><etudiant Absent="1" Retard="0">Sahar</etudiant><etudiant Absent="1" Retard="0">Zeina Houmani</etudiant><nom>Zein Ibrahim</nom><date>2017-01-19</date></seance><seance><etudiant Absent="0" Retard="0">Abdallah Jaffal</etudiant><etudiant Absent="1" Retard="0">Alaa Zreik</etudiant><etudiant Absent="0" Retard="0">Ali Abbas</etudiant><etudiant Absent="1" Retard="0">Ali Harkous</etudiant><etudiant Absent="0" Retard="0">Ali Shaitou</etudiant><etudiant Absent="0" Retard="0">Fatima Tabaja</etudiant><etudiant Absent="0" Retard="0">Hadi Dbouk</etudiant><etudiant Absent="0" Retard="0">Hsein Khalifeh</etudiant><etudiant Absent="1" Retard="0">Khadija Jradi</etudiant><etudiant Absent="0" Retard="0">Maysa Abou Jamra</etudiant><etudiant Absent="1" Retard="0">Mohamad Kassem</etudiant><etudiant Absent="1" Retard="0">Mohamad Shaitou</etudiant><etudiant Absent="0" Retard="1">Nour al din</etudiant><etudiant Absent="0" Retard="1">Rayan</etudiant><etudiant Absent="1" Retard="0">Sahar</etudiant><etudiant Absent="0" Retard="0">Zeina Houmani</etudiant><nom>Zein Ibrahim</nom><date>2017-01-02</date></seance></matiere>
+
+<matiere><cours>Info 445</cours><AllEtudiants><etudiants id="88871" nbAbs="0" nbRet="2" val="0">Abdallah Jaffal</etudiants><etudiants id="88877" nbAbs="2" nbRet="0" val="16">rana wanna&#13;
+</etudiants><etudiants id="88872" nbAbs="1" nbRet="0" val="1">Alaa Zreik</etudiants><etudiants id="88741" nbAbs="1" nbRet="0" val="7">Hsein Khalifeh</etudiants></AllEtudiants><seance><etudiant Absent="0" Retard="1">Abdallah Jaffal</etudiant><etudiant Absent="1" Retard="0">rana wanna&#13;
+</etudiant><nom>Zein Ibrahim</nom><date>2017-01-16</date></seance><seance><etudiant Absent="0" Retard="1">Abdallah Jaffal</etudiant><etudiant Absent="1" Retard="0">rana wanna&#13;
+</etudiant><etudiant Absent="1" Retard="0">Alaa Zreik</etudiant><etudiant Absent="1" Retard="0">Hsein Khalifeh</etudiant><nom>Zein Ibrahim</nom><date>2017-01-17</date></seance><seance><etudiant Absent="0" Retard="0">Abdallah Jaffal</etudiant><etudiant Absent="0" Retard="0">rana wanna&#13;
+</etudiant><etudiant Absent="0" Retard="0">Alaa Zreik</etudiant><etudiant Absent="0" Retard="0">Hsein Khalifeh</etudiant><nom>Zein Ibrahim</nom><date>2017-01-05</date></seance></matiere><matiere><cours>Info 443</cours><AllEtudiants><etudiants id="88872" nbAbs="0" nbRet="1" val="1">Alaa Zreik</etudiants><etudiants id="88875" nbAbs="1" nbRet="0" val="4">Ali Shaitou</etudiants><etudiants id="88871" nbAbs="1" nbRet="0" val="0">Abdallah Jaffal</etudiants><etudiants id="88873" nbAbs="0" nbRet="0" val="2">Ali Abbas</etudiants><etudiants id="88873" nbAbs="0" nbRet="0" val="2">Ali Abbas</etudiants></AllEtudiants><seance><etudiant Absent="0" Retard="1">Alaa Zreik</etudiant><etudiant Absent="1" Retard="0">Ali Shaitou</etudiant><etudiant Absent="1" Retard="0">Abdallah Jaffal</etudiant><nom>Zein Ibrahim</nom><date>2017-01-17</date></seance></matiere></matieres>
+ 
+</master>

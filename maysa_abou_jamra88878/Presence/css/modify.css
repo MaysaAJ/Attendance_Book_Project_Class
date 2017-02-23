@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+p{
+    margin-bottom:5%;
+  }
+  div.first{
+    margin-top:10%;
+    width:800px;
+   margin-left:20%;
+  }
+  div.last{
+     margin-top:5%;
+    width:800px;
+   margin-left:35%;
+  }
+   [name="id"]{
+     font-size:12pt;
+ font-color:#1f5828;
+   }
+  [type="submit"]{
+  
+    margin-top:1%;
+	margin-left:6%;
+	font-size:16pt;
+	color:grey;
+ }
+ select{
+ font-size:12pt;
+ font-color:#1f5828;
+ }
+  label{
+ 
+    text-align: center;
+    line-height: 150%;
+    font-size:16pt;
+ }
+ select{
+display:inline;
+ font-size:12pt;
+ font-color:#1f5828;
+ }

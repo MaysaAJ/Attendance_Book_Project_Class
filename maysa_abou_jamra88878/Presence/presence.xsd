@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/noms" xmlns="http://www.example.org/noms" elementFormDefault="qualified">
+
+  <xs:element name="master">
+    
+        <xs:complexType>
+      <xs:all>
+        <xs:element ref="docteurs"/>
+        <xs:element ref="students"/>
+        <xs:element ref="corses"/>
+        <xs:element ref="matieres"/>
+        
+      </xs:all>
+      <xs:attribute name="nomY" type="xs:int" />
+    </xs:complexType>
+    </xs:element>
+    <xs:element name="matieres">
+       <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="matiere" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+  <xs:element name="nom" type="xs:string" />
+  <xs:element name="docteurs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="docteur" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="docteur">
+    
+        <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nom" />
+        <xs:element name="password" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+  <xs:element name="students">
+    <xs:complexType>
+      <xs:sequence>
+         <xs:element ref="student" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="student">
+     
+        <xs:complexType>
+       <xs:simpleContent>
+            <xs:extension base="xs:string">
+                 <xs:attribute name="id" type="xs:long"/>
+                 <xs:attribute name="val" type="xs:int"/>
+            </xs:extension>
+         </xs:simpleContent>
+       
+     </xs:complexType>
+    </xs:element>
+    <xs:element name="corses" >
+      <xs:complexType>
+         <xs:sequence>
+           <xs:element ref="corse" minOccurs="1" maxOccurs="unbounded"/>
+         </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+    <xs:element name="corse">
+     
+        <xs:complexType>
+       <xs:simpleContent>
+            <xs:extension base="xs:string">
+                 <xs:attribute name="Description" type="xs:string"/>
+             </xs:extension>
+         </xs:simpleContent>
+       
+     </xs:complexType>
+    </xs:element>
+    
+ 
+  <xs:element name="etudiants">
+    
+        <xs:complexType>
+     <xs:simpleContent>
+            <xs:extension base="xs:string">
+                 <xs:attribute name="id" type="xs:long"></xs:attribute>
+                 <xs:attribute name="nbAbs" type="xs:int"></xs:attribute>
+                  <xs:attribute name="nbRet" type="xs:int"></xs:attribute>
+                  <xs:attribute name="val" type="xs:int"></xs:attribute>
+              
+            </xs:extension>
+         </xs:simpleContent>
+    </xs:complexType>
+    </xs:element>
+    <xs:element name="cours" type="xs:string"/>
+          
+     <xs:element name="AllEtudiants" >
+      <xs:complexType>
+         <xs:sequence>
+           <xs:element ref="etudiants" minOccurs="0" maxOccurs="unbounded"/>
+         </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+   
+    
+  <xs:element name="matiere">
+    
+        <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="cours" />
+        
+        <xs:element ref="AllEtudiants" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="seance" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+   <xs:element name="etudiant">
+    
+        <xs:complexType>
+       <xs:simpleContent>
+         <xs:extension base="xs:string">
+            <xs:attribute name="Absent" type="xs:int"></xs:attribute>
+             <xs:attribute name="Retard" type="xs:int"></xs:attribute>
+            
+         </xs:extension>
+       </xs:simpleContent>
+    </xs:complexType>
+    </xs:element>
+  <xs:element name="seance">
+      
+        <xs:complexType>
+     <xs:sequence>
+  			
+  			<xs:element ref="etudiant" minOccurs="1" maxOccurs="unbounded" />
+  			<xs:element ref="nom" />
+  			<xs:element name="date" type="xs:date" />	
+  		</xs:sequence>
+   </xs:complexType>
+    </xs:element>
+</xs:schema>
